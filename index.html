@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>San Agustin Universitario </title>
+</head>
+<body>
+    <nav  id="navbar" class="navbar navbar-light" style="background-color: #800040;">
+        <a class="navbar-brand text-white" href="#">San Agustin Universitario</a>
+        
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control me-2" type="search" placeholder="Buscador"aria-label="Search">
+        </form>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Plantel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Institucion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Fotos</a>
+                </li>
+            </ul>
+
+           
+
+            <div class="dropdown d-lg-none">
+                <button class="btn text-white border-1 p-1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"  aria-expanded="false">
+                    Categorias
+                </button>
+                <ul class="dropdown-menu  mt-2 w-100 border-0" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="w-50 mx-auto border border-secondary-subtle rounded">Sub 16</a></li>
+                    <li><a class="w-50 mx-auto border border-secondary-subtle rounded">Sub 18</a></li>
+                    <li><a class="w-50 mx-auto border border-secondary-subtle rounded">Sub 20</a></li>
+                    <li><a class="w-50 mx-auto border border-secondary-subtle rounded">Mayor</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <div class="container">
+      <h1 class="text-center">Somos los mismos de siempre </h1>
+      <div id="carouselExampleAutoplaying" class="carousel slide text-center" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p>Jugadores Hinchas</p>
+            </div>
+            <div class="carousel-item">
+              <p>Alumnos y ex-alumnos del Colegio Santa Rita. </p>
+            </div>
+            <div class="carousel-item">
+              <p>Fundado un 1º de Marzo de 1991.</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </div>
+
+
+    <div class="container row my-3 mx-5">
+      <div class="lista d-lg-block d-none">
+        <ul style="list-style: none;">
+            <li class="list-group-item"><a class=" text-black" href="#">Sub 16</a></li>
+            <li class="list-group-item"><a class=" text-black" href="#">Sub 18</a></li>
+            <li class="list-group-item"><a class=" text-black" href="#">Sub 20</a></li>
+            <li class="list-group-item"><a class=" text-black" href="#">Mayor</a></li>
+        </ul> 
+      </div>
+    </div>
+    
+   <div class="container col-lg-9 col-md-12 col-sm-12">
+        <div class="row align-items-start">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-xs-12 col-sm-12">
+                    <p class="text-justify">El Deporte como medios que contribuyen al desarrollo integral del alumno, abarcando lo emocional, lo social, lo cognitivo y lo físico desde un enfoque agustiniano.o.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-xs-12 col-sm-12">
+                    <p class="text-justify">Buscamos generar hábitos de vida saludable y de trabajo, fomentar y aprender a trabajar en equipo, favorecer la integración social, la autonomía, el autocontrol y vivenciar la competencia desde los valores de amistad, respeto y libertad.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-xs-12 col-sm-12">
+                    <p class="text-justify">El conocimiento y aceptación de su propio cuerpo así como el de los demás, las posibilidades del movimiento, los juegos y actividades regladas, hasta el entrenamiento deportivo especializado.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    </html>
+
+    
